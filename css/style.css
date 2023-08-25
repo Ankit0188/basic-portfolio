@@ -1,0 +1,50 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-size: 50px;
+}
+.h2 {
+  font-size: 30px;
+}
+.name-color {
+  color: #5ea4e6;
+  font-weight: 700;
+}
+section {
+  display: flex;
+  background-image: linear-gradient(#e3e6e7d8, #8dd1ecd8);
+  box-shadow: 10px 10px 10px lightgray;
+}
+.half-width {
+  width: 50%;
+  padding-left: 5%;
+}
+.half-width img {
+  width: 60%;
+  padding-left: 150px;
+  padding-top: 50px;
+}
+.half-width h3 {
+  text-align: center;
+  color: rgba(48, 57, 70, 0.938);
+  text-shadow: 0px 0px 6px 10px gray;
+  text-decoration: underline black;
+}
+.half-width p {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.884);
+  font-weight: 515;
+  margin-bottom: 20px;
+}
+.link-btn {
+  text-decoration: none;
+  background-image: linear-gradient(#7acbebd8, tomato);
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px 40px;
+  border-radius: 5px;
+  margin-left: 350px;
+}
