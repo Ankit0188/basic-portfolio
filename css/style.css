@@ -115,24 +115,23 @@ body {
 .h1-color1 {
   color: rgba(255, 130, 108, 0.918);
 }
-.experience-education {
-  display: flex;
-  gap: 10px;
+.resume {
   background-image: linear-gradient(lightgray, #7acbebd8);
   box-shadow: 10px 10px 10px lightgray;
-
-  justify-content: space-between;
+}
+.section-title {
+  padding: 30px 20px 20px 30px;
+  margin-right: 750px;
+  margin-left: 750px;
+  text-align: center;
+  color: #ddf5fffa;
+  text-decoration: underline;
+  border-radius: 5px;
+  font-weight: 700;
+  background-image: linear-gradient(#7acbebd8, tomato);
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .education {
-  padding: 80px 100px;
-  text-align: center;
-  font-weight: 700;
-}
-.experience {
-  padding: 80px 100px;
-  padding-right: 500px;
-  padding-top: 75px;
-}
-.section-title{
-  justify-content: center;
+  padding-right: 300px;
+  padding-top: 40px;
 }
