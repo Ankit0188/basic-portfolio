@@ -53,12 +53,12 @@ body {
   margin-right: 70px;
 }
 .half-width p {
-  margin-left: 30px;
+  margin-left: 34px;
   text-align: center;
   color: rgba(0, 0, 0, 0.884);
   font-weight: 515;
   margin-bottom: 20px;
-  font-size: 18px;
+  font-size: 17px;
 }
 .link-btn {
   text-decoration: none;
@@ -80,7 +80,7 @@ body {
   width: 50%;
   padding-left: 150px;
   padding-top: 50px;
-  margin-right: 400px;
+  margin-right: 700px;
   border-bottom-right-radius: 60px;
   border-top-left-radius: 35%;
 }
@@ -124,6 +124,7 @@ body {
   box-shadow: 10px 10px 10px lightgray;
 }
 .section-title {
+  margin-top: 30px;
   padding: 30px 20px 30px 20px;
   margin-right: 700px;
   margin-left: 550px;
@@ -131,7 +132,7 @@ body {
   color: #ddf5fffa;
   text-decoration: underline;
   border-radius: 10px;
-  font-weight: 700;
+  font-weight: 400;
   background-image: linear-gradient(#7acbebd8, tomato);
   font-family: Georgia, "Times New Roman", Times, serif;
 }
@@ -213,12 +214,13 @@ body {
   margin-left: 250px;
   margin-right: 250px;
 }
-.end{
- background-image: linear-gradient( lightgray,#7acbebd8);
-
+.end {
+  margin-top: 11px;
+  background-image: linear-gradient(lightgray, #7acbebd8);
+  box-shadow: 10px 10px 10px lightgray;
 }
 .like {
-  background-image: linear-gradient(lightgray,#e3e6e7d8, );
+  background-image: linear-gradient(lightgray, #e3e6e7d8);
   padding-top: 20px;
   margin: 0px 230px;
   box-shadow: 30px 30px 30px 0px lightgray;
@@ -227,7 +229,7 @@ body {
   background-image: linear-gradient(#e3e6e7d8, lightgray);
   box-shadow: 10px 10px 10px lightgray;
   display: flex;
-  gap: 90px;
+  gap: 50px;
   justify-content: center;
 }
 .like-title {
@@ -243,7 +245,7 @@ body {
   color: #ddf5fffa;
   text-decoration: underline;
   border-radius: 10px;
-  font-weight: 700;
+  font-weight: 300;
   background-image: linear-gradient(#7acbebd8, tomato);
   font-family: Georgia, "Times New Roman", Times, serif;
 }
@@ -256,4 +258,33 @@ body {
   border-radius: 5px;
   background-image: linear-gradient(lightgray, #7acbebd8);
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.like-title1 {
+  text-align: right;
+  margin-right: 100px;
+  margin-top: 100px;
+  font-size: 50px;
+  justify-content: center;
+  margin-bottom: 20px;
+  text-decoration: underline;
+
+  /* 
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 20px;
+  margin-right: 700px;
+  margin-left: 550px;
+  text-align: right;
+  color: #ddf5fffa;
+  text-decoration: underline;
+  border-radius: 10px;
+  font-weight: 700;
+  background-image: linear-gradient(#7acbebd8, tomato);
+  font-family: Georgia, "Times New Roman", Times, serif; */
+}
+.section {
+  background-image: linear-gradient(#e3e6e7d8, lightgray);
+  box-shadow: 10px 10px 10px lightgray;
 }
