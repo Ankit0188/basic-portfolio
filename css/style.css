@@ -121,8 +121,8 @@ body {
 }
 .section-title {
   padding: 30px 20px 20px 30px;
-  margin-right: 750px;
-  margin-left: 750px;
+  margin-right: 800px;
+  margin-left: 600px;
   text-align: center;
   color: #ddf5fffa;
   text-decoration: underline;
@@ -169,4 +169,43 @@ body {
   color: #757575;
   font-family: "Times New Roman", Times, serif;
   text-align: left;
+}
+.intern-title {
+  margin-right: 800px;
+  margin-left: 600px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.intern-sub-title {
+  margin-right: 800px;
+  margin-left: 600px;
+  color: #757575;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 2px;
+  text-align: center;
+}
+.intern-cg {
+  margin-right: 800px;
+  margin-left: 600px;
+  text-align: center;
+  font-weight: 700;
+  color: #757575;
+  font-family: "Times New Roman", Times, serif;
+}
+.intern-description {
+  margin-right: 800px;
+  margin-left: 600px;
+  font-weight: 700;
+  color: #757575;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 0;
+}
+.hr {
+  margin-left: 250px;
+  margin-right: 250px;
 }
