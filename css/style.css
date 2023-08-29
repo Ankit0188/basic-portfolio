@@ -311,8 +311,9 @@ body {
   border-radius: 5px;
   margin-left: 10px;
   text-align: center;
+  box-shadow: 3px 7px 10px 1px #757575;
 }
-.link-btn4{
+.link-btn4 {
   text-decoration: none;
   background-image: linear-gradient(#7acbebd8, tomato);
   color: white;
@@ -323,4 +324,7 @@ body {
   margin-left: 60px;
   text-align: center;
 }
-
+.copyright {
+  text-align: center;
+  padding-bottom: 40px;
+}
